@@ -54,6 +54,11 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@lunisolar/plugin-thegods@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@lunisolar/plugin-thegods/-/plugin-thegods-0.1.4.tgz#10fb39c88c507d62d945b6bf7d5c526c156e1447"
+  integrity sha512-l6ay4n3xHNYTROZWGuzcuLoWxhSj4VCRpVe6VCfJT0waBEO55shGZZV7/FhVhbLWF7xI6VCeKR9Q7fIcZP37eA==
+
 "@modelcontextprotocol/inspector-client@0.4.1":
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/@modelcontextprotocol/inspector-client/-/inspector-client-0.4.1.tgz#95de0503cfab1ef51bba79ef2ccc3eec63dd1e26"
@@ -993,6 +998,11 @@ lucide-react@^0.447.0:
   version "0.447.0"
   resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.447.0.tgz#1b2c4044c619517346306d9fae950265aafa76a5"
   integrity sha512-SZ//hQmvi+kDKrNepArVkYK7/jfeZ5uFNEnYmd45RKZcbGD78KLnrcNXmgeg6m+xNHFvTG+CblszXCy4n6DN4w==
+
+lunisolar@^2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/lunisolar/-/lunisolar-2.5.2.tgz#9bd5c9650e6c5cd8803f0b4b98b0714354e183f5"
+  integrity sha512-r3Af9L40Y2i46yscx8Nk7nPqOBF3KjSs3fAdbVfkJ5ihgNNyREk9MxFXxzbF8MXGkerNpE9JN28DmqmoL3k3WA==
 
 make-error@^1.1.1:
   version "1.3.6"

@@ -4,6 +4,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import { weatherTool } from './tools/weather/weather.tool.js';
 import { registerTool } from "./helper.js";
 import { datetimeTool } from "./tools/datetime/datetime.tool.js";
+import { lunarTool } from "./tools/lunisolar/lunisolar.tool.js";
 
 const server = new McpServer({
   name: 'cc-mcp-servers',
@@ -12,6 +13,7 @@ const server = new McpServer({
 
 registerTool(server, weatherTool);
 registerTool(server, datetimeTool);
+registerTool(server, lunarTool);
 
 async function main() {
   const transport = new StdioServerTransport();
